@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rond, .carre{
+    background-color: gray;
+    height: 325px;
+    width: 349px;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+.rond{
+    border-radius: 45%;
+}
