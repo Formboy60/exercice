@@ -1,0 +1,17 @@
+body{
+    height: 1024px;
+}
+
+div{
+    height: 512px;
+    background-color: rgba(92, 146, 226, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{  
+    color: white;   
+    text-align: center;
+    font-size: 96px;
+}
