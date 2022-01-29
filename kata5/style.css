@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    height: 325px;
+    width: 349px;
+    margin-top: 131px;
+    margin-left: 100px;
+}
+
+.red{
+    background-color: rgba(208, 54, 54, 1);
+    border-radius: 50px 0 0 50px;
+}
+
+.bc, .bor {
+    border-radius: 45%;
+}
+
+.bc{
+    background-color: rgba(96, 194, 189, 1);
+}
+
+.b{
+    background-color: rgba(79, 137, 161, 1);
+    border-radius: 0 50px 0 50px;
+}
+
+.bor{
+    background-color: rgba(167, 56, 56, 1);
+}
+
+.mar{
+    background-color: rgba(85, 48, 48, 1);
+    border-radius: 45% 0 0 50px;
+}
