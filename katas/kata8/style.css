@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgba(21, 33, 51, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25rem;
+    flex-direction: column;
+}
+
+h1, p{
+    color: white;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+p{
+    font-size: 3rem;
+    margin: 0 20% 0 20%;
+}
+
+main{
+    display: flex;
+}
+.image{
+    width: 50%;
+}
+
+.bouton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+button{
+    font-size: 3rem;
+    padding: 1em 3em 1em 3em;
+    border-style: none;
+}
