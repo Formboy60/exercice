@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height: 100vh;
+  background-color: white
+}
+
+h1 {
+    padding: 1em; 
+    font-size: 25px;
+    opacity: 0;
+    transform: scale(1.7);
+    transition: all 4.5s
+}
+
+.active{
+    opacity: 1;
+    transform: scale(1);
+}
