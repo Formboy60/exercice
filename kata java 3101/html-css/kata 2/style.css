@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color: black;
+    width: 50%;
+    min-height: 15rem;
+    border: red 0.9rem solid;
+}

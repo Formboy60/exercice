@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.haut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25rem;
+    background-color: rgba(21, 33, 51, 1);
+    flex-direction: column;
+}
+
+.small{
+    color: white;
+    font-size: smaller;
+}
+
+h1{
+    color: white;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.bas{
+    color: white;
+}
+
+button{
+    background-color: orange;
+    padding: 1rem;
+    color: black;
+    border-radius: 15px;
+    font-size: 1rem;
+    border: none;
+    margin-top: 1em;
+}
+
+.deuz{
+    min-height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 2em;
+}

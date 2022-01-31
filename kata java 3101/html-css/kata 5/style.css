@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25rem;
+    background-color: rgba(21, 33, 51, 1);
+    flex-direction: column;
+}
+
+p{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+a{
+    background-color: orange;
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+    border-radius: 25px;
+    font-size: 1rem;
