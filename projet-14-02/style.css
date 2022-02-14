@@ -126,6 +126,11 @@ button{
     }
 
     .titre{
+        margin: 0;
+        text-align: center;
+    }
+
+    span{
         display: none;
     }
 
