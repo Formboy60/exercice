@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CSS header */
+
+header{
+    background-color: rgba(20, 28, 58, 1);
+    color: white;
+    display: flex;
+    height: 215px;
+    flex-direction: column;
+}
+
+.nav{
+    margin: 25px;
+    font-size: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.titre{
+    margin-left: 450px;
+    margin-top: 10px;
+    font-size: 3em;
+}
+
+/* css main */
+
+
+#searchBar{
+    background-color:rgba(196, 196, 196, 0.25) ;
+    height: 40px;
+    border: 1px solid grey;
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 25%;
+}
+
+.art{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.caps{
+    width: 230px;
+    height: 180px;
+    background-color: rgba(196, 196, 196, 0.25);
+    margin-right: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    margin-left: 30px;
+    font-size: 1.5em;
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+button{
+    background-color: rgba(20, 28, 58, 0.7);
+    color: white;
+    height: 60px;
+    margin: 30px 30px 0 30px;
+    text-decoration: none;
+}
+
+@media all and (max-width: 940px){
+
+.titre{
+    margin-left: 250px;
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+.caps{
+    width: 230px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.art{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+}
+
+@media all and (max-width: 586px){
+
+    header{
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .nav{
+        display: none;
+    }
+
+    #searchBar{
+  
+        height: 40px;
+        margin: auto;
+        width: 100%;
+        margin-top: 80px;
+        margin-bottom: 80px;
+
+    }
+
+    .titre{
+        display: none;
+    }
+
+    .art{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+}
