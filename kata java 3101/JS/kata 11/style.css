@@ -1,0 +1,20 @@
+*{
+    background-color: #111d4a;
+}
+
+.haut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    background-color: white;
+    width: 50%;
+    height: 50px;
+}
+
+.fiches{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
